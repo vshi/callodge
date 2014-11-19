@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+        <!--<link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>-->
+        <link type="text/css" rel="stylesheet" href="main.css"/>    
+        <title>Cal Lodge</title>
+        <meta name="description" content="Cal Lodge directions page">
+        
+    </head>
+    
+    <body>
+       
+        <!--NOTES
+            to add: social media links (under lbar?)
+            -fb, twitter, yelp, email, g+
+        -->
+        <!--NAVBAR-->
+        <div class="navbar">
+            <ul>
+                <img src="images/asuc.png">
+                <li><a href="file:///Users/victoriashi/Desktop/WebDev/callodge/main.html">Home</a></li> 
+                <li><a href="/#">Photos</a></li>	
+                <li><a href="file:///Users/victoriashi/Desktop/WebDev/callodge/contact.html">Contact Us</a></li> 
+                <li><a href="file:///Users/victoriashi/Desktop/WebDev/callodge/recreation.html">Recreation</a></li>
+            </ul>
+        </div>
+        <div class="navbar" id="floater"></div>
+        <!--NAVBAR_END-->
+        
+        <!--HEADER-->
+        <div class="header-thin" id="directions">
+            <div id="header_floater"></div>
+            <h1>Directions</h1>
+            <p>@ CalLodge</p>
+        </div>
+        <!--HEADER_END-->
+        
+        <!--MAIN-->
+        <div class="grid-container outline">
+            <div class="col-1" id="lbar">
+            <h2>Plan, Book, and Buy</h2>
+            <br>
+            <ul>
+                <li><a href="/#">Lodging</a></li>
+                <li><a href="file:///Users/victoriashi/Desktop/WebDev/callodge/rates.html">Rates</a></li>
+                <li><a href="file:///Users/victoriashi/Desktop/WebDev/callodge/directions.html">Directions</a></li>
+            </ul>
+
+        </div> 
+            <div class="col-3">
+                <div id="map">
+                <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:400px;width:100%;"><div id="gmap_canvas" style="height:400px;width:100%;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://deichmann-gutschein-map.com" id="get-map-data">die kalten monate</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(39.3168795,-120.3505844),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(39.3168795, -120.3505844)});infowindow = new google.maps.InfoWindow({content:"<b>Cal Lodge</b><br/>19818 Donner Pass Rd<br/>95728 Soda Springs" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                </div>
+
+            <h1>Address</h1>
+            <h3>19818 Donner Pass Rd.</h3>
+            <h3>Soda Springs, CA 95728</h3>
+            <h3>530-426-9900</h3>
+            <br>
+            <p>The Cal Lodge is located at 7,000 ft. on top of Donner Summit. Always be prepared for winter driving conditions. Drive slow, 
+carry chains, and remember when you reach our Lodge, you'll 
+feel at home and won't have to drive anymore because you can 
+ski or snowshoe out our back door or use the free shuttle to 
+Sugar Bowl Ski resort.  Call Cal Trans road Conditions for 
+updates on weather conditions 1-800-427-ROAD  Cal Trans 
+Road Conditions  and look</p>
+            <br>
+            <h1>Directions</h1>
+            <h3>From San Francisco</h3>
+            <p>Take the Bay Bridge to Interstate 80, head east toward 
+Sacramento/Reno. Just before you reach Donner Summit look 
+for the "Sugar Bowl Next Exit" sign then exit at the 
+Norden/Soda Springs off ramp. Turn right on Donner Pass rd. 
+eastbound, and continue 2.5 miles. Just past the Clair Tappaan 
+Lodge on your left, your next exit will be the Cal Lodge.  We 
+have a green roof and sit up on the hill to the left.  You know you 
+have gone too far if you reach the Gondola parking lot for Sugar 
+Bowl, if so turn around and we are the first big driveway to the 
+right, park in the lot on the left.  In the winter months you must 
+park at the bottom of the hill in the large parking lot and walk 
+up about 75 feet to our lodge.  Please DO NOT leave any 
+valuables in your vehicle at anytime, bring everything into the 
+lodge.</p>
+            <br>
+            <h3>From Reno</h3>
+            <p>Take Interstate 80 west through Truckee and continue heading 
+west towards Donner summit.  Take the Norden/ Soda Springs/ 
+Sugar Bowl Exit. Turn left on Highway 40 eastbound, and 
+continue 2.5 miles. Pass the Clair Tappaan Lodge on your left, 
+your next exit will be the Cal Lodge.  We have a green roof and 
+sit up on the hill to the left.  You know you have gone to far if 
+you reach the Gondola parking lot for Sugar Bowl, if so turn 
+around and we are the first big driveway to the right, park in 
+the lot on the left.  In the winter months you must park at the 
+bottom of the hill in the large parking lot and walk up about 75 
+feet to our lodge.  Please DO NOT leave any valuables in your 
+vehicle at anytime, bring everything into the lodge.
+            </p>
+    
+</div>
+
+        <!--MAIN_END-->
+        <!--FOOTER-->
+        <div class="footer">
+            <ul>
+                <li>CalLodge</li>
+                <li> 19818 Donner Pass Rd.</li>
+                <li> Soda Springs, CA 95728</li>
+                <li>staff@callodge.org</li>
+                <li>530-426-9900</li>
+            </ul>
+        </div>
+        <!--FOOTER_END-->
+
+        
+    </body>
+    
+</html>
