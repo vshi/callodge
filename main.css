@@ -478,6 +478,9 @@ a:hover{
 #recreation.header-thin{
     background-image: url("images/header_snow.jpg");
 }
+#photos.header-thin{
+    background-image: url("images/header_summer.jpg");
+}
 #contact.header-thin{
     background-image: url("images/header.jpg");
 }
@@ -555,6 +558,9 @@ a:hover{
     padding: 20px; 
     /*background-color: #E6E2CF;*/
 }
+#photos.col-1{
+    padding: 5px;
+}
 
 .col-1{ width: 25%; }
 .col-2{ width: 50%; }
@@ -569,6 +575,7 @@ a:hover{
     list-style: none;
     text-align: center;
 }
+
 #contact.col-4{
     color: #243757;
     display: block;
@@ -629,6 +636,42 @@ a:hover{
 caption{
     font-size:2.0em;
 }
+.port-img{
+    display: block;
+    position:relative;
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 10px;
+    overflow:hidden;
+    display:block;
+    
+}
+.port-img a img{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    display:table-cell;
+    vertical-align: center;
+}
+.port-img a img:hover{
+    opacity:0.5;
+}
+#gallery{
+    min-width: 600px;
+    max-width: 1600px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+}
+#experiment{
+    min-width: 600px;
+    max-width: 1600px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+}
+
+
 
 
 
