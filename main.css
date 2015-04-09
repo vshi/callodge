@@ -464,6 +464,12 @@ a:hover{
     text-align: center;
     margin: 0px 0px 12px 0px;
 }
+#header_floater {    
+    float: left;
+    height: 50%;
+    width: 100%;
+    margin-bottom:-40px;
+}
 .header{
     background-image: url("images/photos/Panoramic%202.JPG");
     height:350px;
