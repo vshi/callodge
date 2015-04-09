@@ -490,13 +490,6 @@ a:hover{
 #directions.header-thin{
     background-image: url("images/header_summer.jpg");
 }
-#header_floater {
-    
-    float: left;
-    height: 50%;
-    width: 100%;
-    margin-bottom:-40px;
-}
 [class*='header'] > p{
     clear: both;
 }
